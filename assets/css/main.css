@@ -2305,7 +2305,7 @@ input, select, textarea {
 		}
 
 		.icon.style2:before {
-			color: #8addaa;
+			color:rgb(175, 48, 48);
 		}
 
 		.icon.style3:before {
@@ -2912,18 +2912,22 @@ input, select, textarea {
 
 /* Header */
 
+  .profilePhoto{
+    height:200px;
+    width: 250px;
+  }
 	#header {
 		padding: 9em 0 9em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #449a 30%, #4361c2);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
-	}
+  }
 
 		#header a {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
