@@ -2915,6 +2915,8 @@ input, select, textarea {
   .profilePhoto{
     height:200px;
     width: 250px;
+    object-fit: cover;
+    border-radius: 16px;
   }
 	#header {
 		padding: 9em 0 9em 0 ;
